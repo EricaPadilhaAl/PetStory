@@ -1,0 +1,107 @@
+
+@font-face {
+    font-family: bohemian;
+    src: url(font/bohemian_soul/Bohemian\ Soul.otf)
+
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: bohemian;
+}
+header{
+    margin: 0px;
+    width: 100%;
+    height: 200px;
+}
+#pagina{
+    width: 35%;
+    height: 1000px;
+    margin: 5px auto 0px auto;
+    background-color: #FFDE59;
+    border: black solid 2px;
+    border-radius: 10px;
+    font-family: bohemian;
+}
+main{
+    width: 100%;
+    height: auto;
+    background-image: url(imagens/fundo.jpg);
+}
+    input{
+        margin: 8px;
+        width: 400px;
+        height: 20px;
+        padding: 8px;
+        border: none;
+        border-bottom: 2px solid rgb(255, 155, 155);
+        color: #000000;
+        background-color:#fad12c;
+      
+    }
+
+    #senha{
+       text-align: center;
+    }
+    #email{
+        text-align: center;
+     }
+     #cadastro{
+        text-align: center;
+     }
+    table{
+        border-collapse: collapse;
+        width: 620px;
+        height: 50px;
+        margin: 20px;
+      }
+
+      td:hover{
+        color: rgb(255, 255, 255);
+        background-color: #ff0055;
+      }
+
+      th:hover{
+        color: rgb(0, 0, 0);
+        background-color: #ff006a;
+      }
+      
+    /* colocar duas linhas que vc quer alterar ao mesmo tempo e do mesmo jeito, usar VIRGULA */
+    td, th{ 
+        border: 1px solid rgb(0, 0, 0);
+        padding: 20px;
+    }
+    
+    th{
+        background-color: rgb(255, 255, 255);
+        color: #ff1ebc;
+    }
+    td{
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    #botao{
+        width: 180px;
+        height: 80px;
+        background-color: rgb(255, 194, 229);
+        color: white;
+        border-radius: 20px;
+        border-style: double;
+        margin: 0px 250px;
+    }
+
+    a{
+        text-decoration: none;
+        margin: 0px 10px;
+        text-align: center;
+        color: #695400;
+    }
+
+    a{
+        text-decoration: none;
+        margin: 0px 10px;
+        text-align: center;
+        color: #695400;
+    }
